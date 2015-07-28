@@ -22,8 +22,8 @@ if($_POST){
 				echo '<div>Hay un error al insertar'.$conn->error.'</div>';
 			}
 			else{
-				echo '<div>Dato ingresado correctamente</div>';
-		
+				echo '<script> alert("Producto agregado a factura.");</script>';
+				 echo '<script> window.location="detalle.php"; </script>';  
 			}
 		}
 		else{
